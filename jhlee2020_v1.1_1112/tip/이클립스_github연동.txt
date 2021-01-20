@@ -1,0 +1,36 @@
+이클립스에서 프로젝트를 깃 원격 저장소로 Commit하는 방법에 대해 알아봅시다. 
+
+1. 깃 원격저장소에 올리고싶은 프로젝트 -> 우클릭 -> Share Project를 클릭합니다.
+
+2. 화면에 보이는 Use or create repository inparent folder of project 체크박스를 클릭합니다.
+
+3. Create Repository 버튼을 클릭하여 로컬 저장소를 만듭니다.
+
+4. Git Repositories를 엽니다.
+
+5. Git Repositories에 로컬저장소가 잘 만들어졌는지 확인합니다. 위와같이 자신이 원격저장소에 올리고싶은 프로젝트가 있으면 로컬저장소가 잘 만들어진것입니다. 이제 원격저장소에 프로젝트를 올릴 차례군요.
+
+6. 올리고싶은 원격저장소의 주소를 복사합니다.
+
+7. Git Repositories탭에서 ▽버튼을 누르면 Remotes라는게 있을겁니다 Remotes우클릭 -> Create Remote클릭
+
+8. Configure push 라디오버튼을 클릭하고 Ok버튼을 누릅니다.
+
+9. 위에 보이는 빨간박스안 Change버튼을 클릭합니다.
+
+10. 아까 주소를 제대로 복사했다면 Location은 자동으로 입력이 될겁니다. 밑의 Authentication은 자신의 깃 아이디 + 패스워드를 입력해주시면 됩니다.
+
+11. Save를 누릅니다. Save and Push를 누르면 더 간단하게 할 수도 있지만 버그가 많더군요. 번거롭더라도 Save하고 Push는 따로 진행해주도록 하겠습니다.
+
+12. Commit과 Push를 할 차례입니다. Git Staging을 엽니다.
+
+13. Git Stating탭의 좌측을 보시면 Unstaged Changes 와 Staged Changes칸이 보이실 겁니다. UnStaged Changes에 있는 소스들을 드래그해서 Staged Changes로 옮겨주세요.
+
+14. 그런 뒤 Git Staging탭 우측의 Commit Message에 등록 메시지를 입력하고 Commit and Push 버튼을 누릅니다.
+
+15. Next를 누릅니다.
+
+16. Finish를 누릅니다. 만약 중간에 아이디와 패스워드를 입력하는 란이나오면 깃허브 아이디와 패스워드를 입력해주시면 됩니다.
+
+17. Push가 완료 되었다면 위와같은 메시지박스가 뜰겁니다. 이제 원격저장소로 가서 프로젝트가 잘 업로드 되었는지 확인합시다. 
+

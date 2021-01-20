@@ -1,0 +1,56 @@
+#lblCnt{
+-fx-text-fill:white;
+-fx-padding:4px;
+-fx-background-color: orange;
+-fx-font-size:12px;
+}
+#largeBtn{
+-fx-color:black;
+-fx-padding:14px;
+-fx-background-color: #2E9AFE;
+-fx-background-radius: 10px;
+-fx-font-weight: bold;
+}
+#largeBtn:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+#allBtn{
+-fx-color:black;
+-fx-padding:4px;
+-fx-background-color: #2E9AFE;
+-fx-background-radius: 5px;
+}
+#allBtn:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+
+
+
+.combo-box-base {
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, white;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+}
+
+
+
+
+
+.table-view .table-column{
+    -fx-alignment:center;
+}
+
+
+#title{
+    -fx-font-family: Arial;
+
+    -fx-font-size: 13
+}
+
+.table-view .table-cell{
+	-fx-font-family: Arial ;
+    /*-fx-font-weight:bold;*/
+    -fx-font-size:12px;           
+    /* -fx-text-fill:orange; */
+
+}

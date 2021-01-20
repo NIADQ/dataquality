@@ -1,0 +1,118 @@
+#lblCnt{
+-fx-text-fill:white;
+-fx-padding:4px;
+-fx-background-color: orange;
+-fx-font-size:12px;
+}
+#largeBtn{
+-fx-color:black;
+-fx-padding:14px;
+-fx-background-color: #2E9AFE;
+-fx-background-radius: 10px;
+-fx-font-weight: bold;
+}
+#largeBtn:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+#allBtn{
+-fx-color:black;
+-fx-padding:4px;
+-fx-background-color: #2E9AFE;
+-fx-background-radius: 5px;
+}
+#allBtn:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+#confirmBtn{
+-fx-color:black;
+-fx-padding:7px;
+-fx-background-color: #2E9AFE;
+-fx-background-radius: 5px;
+}
+#confirmBtn:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+
+#cancelBtn{
+-fx-color:black;
+-fx-padding:7px;
+-fx-background-color: #646464;
+-fx-background-radius: 5px;
+}
+#cancelBtn:hover {
+    -fx-background-color: linear-gradient(#3c3c3c, #505050);
+}
+
+
+
+.combo-box-base {
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, white;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+}
+
+.myclass
+{
+    -fx-text-fill: gray;
+    -fx-padding:4px;
+    -fx-border-color: gray;
+    -fx-background-color: white;
+    -fx-background-radius: 15px;
+}
+
+.myOrg{
+	-fx-text-fill :rgb(0,128,0);
+}
+
+.myCng{
+	-fx-text-fill :rgb(0,0,255);
+}
+
+
+
+
+.table-view .table-column{
+    -fx-alignment:center;
+}
+
+
+.table-view .table-cell{
+	-fx-font-family: Arial ;
+    /*-fx-font-weight:bold;*/
+    -fx-font-size:12px;           
+    /* -fx-text-fill:orange; */
+
+}
+
+
+.combo-box.center-aligned>.list-cell {
+    -fx-alignment: center;
+}
+
+.combo-box>.list-cell {
+    -fx-alignment: center;
+}
+
+
+.progress-bar > .bar {
+    -fx-background-color: linear-gradient(
+        from 0px .75em to .75em 0px,
+        repeat,
+        -fx-accent 0%,
+        -fx-accent 49%,
+        derive(-fx-accent, 30%) 50%,
+        derive(-fx-accent, 30%) 99%
+    );
+}
+
+
+
+
+
+#title{
+    -fx-font-family: "���� ���";
+    -fx-font-weight: bold;
+    -fx-font-size: 14
+}
+
+
